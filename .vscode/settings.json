@@ -1,0 +1,37 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "node_modules": true,
+        "tsconfig.json": true,
+        "tailwind.config.ts": true,
+        "postcss.config.mjs": true,
+        "pnpm-lock.yaml": true,
+        "package-lock.json": true,
+        "next-env.d.ts": true,
+        ".eslintrc.json": true,
+        ".gitignore": true,
+        ".next": true,
+        ".vscode": true,
+        "next.config.mjs": true,
+        "README.md": true
+    },
+    "hide-files.files": [
+        "node_modules",
+        "tsconfig.json",
+        "tailwind.config.ts",
+        "postcss.config.mjs",
+        "pnpm-lock.yaml",
+        "package-lock.json",
+        "next-env.d.ts",
+        ".eslintrc.json",
+        ".gitignore",
+        ".next",
+        ".vscode",
+        "next.config.mjs",
+        "README.md"
+    ]
+}
