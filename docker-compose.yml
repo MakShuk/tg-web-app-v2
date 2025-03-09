@@ -1,0 +1,13 @@
+services:
+  tg-web-service:
+    build: .
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - nginx_network
+
+networks:
+  nginx_network:
+    name: nginx_network
+    driver: bridge

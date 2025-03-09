@@ -8,6 +8,7 @@
  */
 
 import { useEffect } from 'react';
+import Link from 'next/link';
 
 /**
  * Компонент ErrorPage
@@ -63,6 +64,11 @@ export function ErrorPage({
         При нажатии вызывает функцию сброса состояния
       */}
       {reset && <button onClick={() => reset()}>Попробовать снова</button>}
+      
+      {/* Кнопка возврата на главную страницу */}
+      <Link href="/">
+        <button style={{ marginLeft: '10px' }}>Вернуться на главную</button>
+      </Link>
     </div>
   );
 }
