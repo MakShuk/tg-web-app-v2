@@ -3,6 +3,8 @@ services:
     build: .
     environment:
       - NODE_ENV=production
+    ports:
+      - "2999:2999"  # Maps external port 2999 to internal port 3000
     restart: unless-stopped
     networks:
       - nginx_network
