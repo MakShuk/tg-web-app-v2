@@ -5,6 +5,7 @@ import { Section, Cell, List } from '@telegram-apps/telegram-ui';
 import { Link } from '@/components/Link/Link';
 import { Page } from '@/components/Page';
 import FunctionCard from '@/components/FunctionCard/FunctionCard';
+import Footer from '@/components/Footer/Footer';
 
 export default function Home() {
 
@@ -43,6 +44,7 @@ export default function Home() {
           </Link>
         </Section>
       </List>
+      <Footer />
     </Page>
   );
 }
