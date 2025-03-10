@@ -23,26 +23,6 @@ export default function Home() {
             imageAlt="Telegram Mini Apps Features"
           />
         </Section>
-        <Section
-          header="Данные запуска приложения"
-          footer="Эти страницы помогают разработчику узнать больше о текущей информации запуска"
-        >
-          <Link href="/init-data">
-            <Cell subtitle="Данные пользователя, информация о чате, технические данные">
-              Данные инициализации
-            </Cell>
-          </Link>
-          <Link href="/launch-params">
-            <Cell subtitle="Идентификатор платформы, версия Mini Apps и т.д.">
-              Параметры запуска
-            </Cell>
-          </Link>
-          <Link href="/theme-params">
-            <Cell subtitle="Информация о палитре приложения Telegram">
-              Параметры темы
-            </Cell>
-          </Link>
-        </Section>
       </List>
       <Footer />
     </Page>
